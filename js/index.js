@@ -8,9 +8,9 @@ function validar(){
 
     }
 
-}
+    function correctCaptcha() {
+        console.log("Captacha resulto correctamente")
+        bandera = True;
+    }
 
-function correctCaptcha() {
-    console.log("Captacha resulto correctamente")
-    bandera = True;
 }
