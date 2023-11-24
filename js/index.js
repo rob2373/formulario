@@ -1,4 +1,4 @@
-var  bandera = false;
+var  bandera = FALSE;
 
 function validar(){
     /* alert($("#user").val());
@@ -7,10 +7,8 @@ function validar(){
         console.log("Validación completa");
 
     }
-
-    function correctCaptcha() {
-        console.log("Captacha resulto correctamente")
-        bandera = True;
-    }
-
+}
+function correctCaptcha() {
+    console.log("Captacha resulto correctamente")
+    bandera = TRUE;
 }
